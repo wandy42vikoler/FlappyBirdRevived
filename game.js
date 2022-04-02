@@ -113,7 +113,7 @@ function jump() {
 }
 
 function keyboardJump() {
-    document.addEventListener("keydown", jump)
+    document.addEventListener("click", jump)
 }
 
 function initGame() {
